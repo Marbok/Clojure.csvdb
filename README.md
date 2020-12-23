@@ -18,7 +18,7 @@ The files implemented link - "many-to-many". You need implement only select-quer
     :limit 2
     :joins [[:student_id student :id] [:subject_id subject :id]])
 ```
-You need to run these queries in the REPL, so you don't need to write any additional I/o system for the console.
+You need to run queries in the REPL, so you don't need to write any additional I/o system for the console.
 
 ## My implementation:
 All implementation in ***core.clj.***
