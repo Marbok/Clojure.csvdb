@@ -25,3 +25,5 @@ All implementation in ***core.clj.***
 
 Run in Repl: ***lein repl***<br>
 Run tests: ***lein test***
+
+## All the language constructs used are described in the [article](https://marbok.github.io/Clojure-part-1/)
