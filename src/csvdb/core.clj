@@ -89,8 +89,7 @@
                         (->> data
                              (filter #(= (column1 rec) (column2 %)))
                              (map #(merge % rec))))]
-    (reduce #(concat %1 (map-data1-rec %2 data2)) '() data1))
-  )
+    (reduce #(concat %1 (map-data1-rec %2 data2)) '() data1)))
 
 ;; (perform-joins student-subject [[:student_id student :id] [:subject_id subject :id]])
 ;; => [{:subject "Math", :subject_id 1, :surname "Ivanov", :year 1998, :student_id 1, :id 1}
